@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+}
+div.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.card{
+    max-width: 345px;
+    background-color: #fff;
+    padding: 22px;
+    border: 1px solid black;
+    box-shadow: 9px 9px 0  black;
+    border-radius: 18px;
+}
+div.card img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+div.text{
+    margin-top: 20px;
+}
+div.text h1{
+    font-size: 25px;
+}
+div.text h1:hover{
+    color: hsl(47, 88%, 63%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+div.avatar{
+    width:100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+div.avatar img{
+    width: 10%;
+    height: 100%;
+}
+div.avatar p{
+    margin-left: 20px;
+}
+
+.bold{
+    font-weight:800;
+}
+.yellow-box{
+    background-color:hsl(47, 88%, 63%);
+    margin: auto;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+.black{
+    color: hsl(0, 0%, 7%);
+}
+.grey{
+    color: hsl(0, 0%, 50%);
+    margin-right: 10px;
+    line-height: 25px;
+}
+
